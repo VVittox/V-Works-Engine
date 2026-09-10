@@ -1,0 +1,7 @@
+{
+  "id": "hello_vworks",
+  "name": "Hello V Works",
+  "version": "1.0.0",
+  "entry": "plugin.py",
+  "description": "Example V Works editor plugin. Enable it in Project > Package / Plugin Manager."
+}

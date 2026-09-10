@@ -1,0 +1,23 @@
+{
+  "format": "vworks_scene",
+  "version": 1,
+  "scene": {
+    "type": "Scene",
+    "name": "Main",
+    "children": [
+      {
+        "type": "ColorRect2D",
+        "name": "Player",
+        "children": [],
+        "position": [-48.0, -32.0],
+        "rotation": 0.0,
+        "scale": [1.0, 1.0],
+        "visible": true,
+        "z_index": 0,
+        "size": [96.0, 64.0],
+        "color": [86, 156, 214]
+      }
+    ],
+    "background_color": [25, 26, 31]
+  }
+}

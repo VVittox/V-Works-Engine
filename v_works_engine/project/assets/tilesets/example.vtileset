@@ -1,0 +1,13 @@
+{
+  "format": "vworks_resource",
+  "version": 1,
+  "type": "TileSet2D",
+  "data": {
+    "texture": "",
+    "tile_width": 32,
+    "tile_height": 32,
+    "columns": 8,
+    "margin": 0,
+    "spacing": 0
+  }
+}

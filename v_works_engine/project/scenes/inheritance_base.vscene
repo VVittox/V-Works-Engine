@@ -1,0 +1,80 @@
+{
+  "format": "vworks_scene",
+  "version": 3,
+  "scene": {
+    "type": "Scene",
+    "name": "InheritanceBase",
+    "script": "",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "ColorRect2D",
+        "name": "SharedBox",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position": [
+          260,
+          220
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "size": [
+          220,
+          110
+        ],
+        "color": [
+          70,
+          105,
+          180
+        ]
+      },
+      {
+        "type": "Label2D",
+        "name": "BaseLabel",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position": [
+          220,
+          160
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "text": "Edit the base scene; untouched values propagate",
+        "font_size": 22,
+        "color": [
+          230,
+          235,
+          245
+        ],
+        "font_path": ""
+      }
+    ],
+    "background_color": null
+  }
+}

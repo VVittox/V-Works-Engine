@@ -1,0 +1,122 @@
+{
+  "format": "vworks_project",
+  "version": 3,
+  "name": "V Works Engine Demo",
+  "main_scene": "scenes/showcase.vscene",
+  "icon": "icon.png",
+  "window": {
+    "width": 1280,
+    "height": 720,
+    "fullscreen": false,
+    "borderless": false,
+    "resizable": true,
+    "vsync": true
+  },
+  "runtime": {
+    "target_fps": 120,
+    "physics_fps": 60,
+    "gravity": 980.0,
+    "debug_overlay": true,
+    "debug_collisions": true,
+    "profiler_overlay": true,
+    "background_color": [
+      22,
+      24,
+      31
+    ]
+  },
+  "input_map": {
+    "ui_left": [
+      "left",
+      "a"
+    ],
+    "ui_right": [
+      "right",
+      "d"
+    ],
+    "ui_up": [
+      "up",
+      "w"
+    ],
+    "ui_down": [
+      "down",
+      "s"
+    ],
+    "ui_accept": [
+      "return",
+      "space"
+    ],
+    "ui_cancel": [
+      "escape"
+    ]
+  },
+  "tags": [
+    "Untagged",
+    "Player",
+    "Enemy",
+    "Collectible",
+    "UI",
+    "Navigation",
+    "Environment"
+  ],
+  "layers": [
+    "Default",
+    "Player",
+    "Enemies",
+    "World",
+    "UI",
+    "Navigation",
+    "Layer 6",
+    "Layer 7",
+    "Layer 8",
+    "Layer 9",
+    "Layer 10",
+    "Layer 11",
+    "Layer 12",
+    "Layer 13",
+    "Layer 14",
+    "Layer 15",
+    "Layer 16",
+    "Layer 17",
+    "Layer 18",
+    "Layer 19",
+    "Layer 20",
+    "Layer 21",
+    "Layer 22",
+    "Layer 23",
+    "Layer 24",
+    "Layer 25",
+    "Layer 26",
+    "Layer 27",
+    "Layer 28",
+    "Layer 29",
+    "Layer 30",
+    "Layer 31"
+  ],
+  "enabled_plugins": [],
+  "editor": {
+    "autosave_enabled": true,
+    "autosave_seconds": 60,
+    "recovery_keep": 10,
+    "grid_size": 16,
+    "show_collision_shapes": true
+  },
+  "build": {
+    "product_name": "VWorksEngineDemo",
+    "version": "0.7.0",
+    "company": "VVittox",
+    "onefile": false,
+    "debug_console": false,
+    "clean_build": true,
+    "scenes": [
+      {
+        "path": "scenes/showcase.vscene",
+        "enabled": true
+      },
+      {
+        "path": "scenes/3d_showcase.vscene",
+        "enabled": false
+      }
+    ]
+  }
+}

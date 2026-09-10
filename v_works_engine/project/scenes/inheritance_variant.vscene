@@ -1,0 +1,30 @@
+{
+  "format": "vworks_scene",
+  "version": 3,
+  "inheritance": {
+    "base": "inheritance_base.vscene"
+  },
+  "overrides": {
+    "props": {},
+    "children_changed": {
+      "SharedBox": {
+        "props": {
+          "position": [
+            520,
+            300
+          ],
+          "color": [
+            160,
+            80,
+            170
+          ]
+        },
+        "children_changed": {},
+        "children_added": [],
+        "children_removed": []
+      }
+    },
+    "children_added": [],
+    "children_removed": []
+  }
+}

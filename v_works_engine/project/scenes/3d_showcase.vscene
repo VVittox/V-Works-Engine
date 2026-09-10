@@ -1,0 +1,718 @@
+{
+  "format": "vworks_scene",
+  "version": 5,
+  "scene": {
+    "type": "Scene",
+    "name": "3D Showcase",
+    "script": "",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "WorldEnvironment3D",
+        "name": "WorldEnvironment3D",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "ambient_color3d": [
+          255,
+          255,
+          255
+        ],
+        "ambient_energy3d": 0.3,
+        "fog_enabled3d": true,
+        "fog_color3d": [
+          42,
+          52,
+          68
+        ],
+        "fog_near3d": 12.0,
+        "fog_far3d": 45.0,
+        "sky_enabled3d": true,
+        "sky_top_color3d": [
+          24,
+          34,
+          58
+        ],
+        "sky_bottom_color3d": [
+          120,
+          155,
+          195
+        ]
+      },
+      {
+        "type": "DirectionalLight3D",
+        "name": "DirectionalLight3D",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation3d": [
+          -0.65,
+          -0.45,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "light_color3d": [
+          255,
+          244,
+          220
+        ],
+        "light_energy3d": 1.1,
+        "ambient3d": 0.28,
+        "light_enabled3d": true
+      },
+      {
+        "type": "Camera3DNode",
+        "name": "Camera3D",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          3.8,
+          9.0
+        ],
+        "rotation3d": [
+          -0.34,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "current3d": true,
+        "fov": 68.0,
+        "near": 0.05,
+        "far": 2000.0,
+        "orthographic": false,
+        "ortho_size": 10.0,
+        "cull_mask3d": 4294967295
+      },
+      {
+        "type": "MeshInstance3D",
+        "name": "Floor",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "primitive": "plane",
+        "mesh_path": "",
+        "size3d": [
+          14.0,
+          1.0,
+          14.0
+        ],
+        "color3d": [
+          62,
+          70,
+          84
+        ],
+        "wireframe": false,
+        "shaded": true,
+        "double_sided": true,
+        "segments": 14,
+        "rings": 9,
+        "cast_shadow3d": true,
+        "receive_light3d": true
+      },
+      {
+        "type": "MeshInstance3D",
+        "name": "Cube",
+        "script": "scripts/spin3d.py",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          -2.4,
+          1.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "primitive": "cube",
+        "mesh_path": "",
+        "size3d": [
+          1.7,
+          1.7,
+          1.7
+        ],
+        "color3d": [
+          70,
+          155,
+          245
+        ],
+        "wireframe": false,
+        "shaded": true,
+        "double_sided": true,
+        "segments": 14,
+        "rings": 9,
+        "cast_shadow3d": true,
+        "receive_light3d": true
+      },
+      {
+        "type": "MeshInstance3D",
+        "name": "Sphere",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "primitive": "sphere",
+        "mesh_path": "",
+        "size3d": [
+          1.7,
+          1.7,
+          1.7
+        ],
+        "color3d": [
+          235,
+          105,
+          95
+        ],
+        "wireframe": false,
+        "shaded": true,
+        "double_sided": true,
+        "segments": 14,
+        "rings": 9,
+        "cast_shadow3d": true,
+        "receive_light3d": true
+      },
+      {
+        "type": "MeshInstance3D",
+        "name": "Cylinder",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          2.4,
+          1.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "primitive": "cylinder",
+        "mesh_path": "",
+        "size3d": [
+          1.7,
+          1.7,
+          1.7
+        ],
+        "color3d": [
+          110,
+          220,
+          145
+        ],
+        "wireframe": false,
+        "shaded": true,
+        "double_sided": true,
+        "segments": 14,
+        "rings": 9,
+        "cast_shadow3d": true,
+        "receive_light3d": true
+      },
+      {
+        "type": "MeshInstance3D",
+        "name": "Pyramid",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          1.0,
+          -2.6
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "primitive": "pyramid",
+        "mesh_path": "",
+        "size3d": [
+          1.7,
+          1.7,
+          1.7
+        ],
+        "color3d": [
+          235,
+          190,
+          80
+        ],
+        "wireframe": false,
+        "shaded": true,
+        "double_sided": true,
+        "segments": 14,
+        "rings": 9,
+        "cast_shadow3d": true,
+        "receive_light3d": true
+      },
+      {
+        "type": "Label2D",
+        "name": "Hint",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position": [
+          26.0,
+          26.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "text": "V Works Engine 3D Showcase  •  software 3D renderer",
+        "font_size": 24,
+        "color": [
+          235,
+          240,
+          248
+        ],
+        "font_path": ""
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "PhysicsFloor",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0.0,
+          -0.3,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          14.0,
+          0.6,
+          14.0
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "RigidBody3D",
+        "name": "FallingBox",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "position3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              1.2,
+              1.2,
+              1.2
+            ],
+            "color3d": [
+              175,
+              105,
+              245
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "position3d": [
+          4.0,
+          5.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "DYNAMIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "PointLight3D",
+        "name": "BluePointLight",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          -2.5,
+          2.5,
+          2
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "point_color3d": [
+          100,
+          170,
+          255
+        ],
+        "point_energy3d": 1.8,
+        "point_range3d": 8,
+        "point_attenuation3d": 2.0,
+        "point_enabled3d": true
+      },
+      {
+        "type": "SpotLight3D",
+        "name": "WarmSpotLight",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          3.0,
+          4.0,
+          3.0
+        ],
+        "rotation3d": [
+          -0.7,
+          -0.5,
+          0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "point_color3d": [
+          255,
+          175,
+          105
+        ],
+        "point_energy3d": 2.2,
+        "point_range3d": 12,
+        "point_attenuation3d": 2.0,
+        "point_enabled3d": true,
+        "spot_angle3d": 50,
+        "spot_softness3d": 0.2
+      },
+      {
+        "type": "Marker3D",
+        "name": "TargetMarker",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0,
+          1,
+          0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": ""
+      },
+      {
+        "type": "RayCast3D",
+        "name": "GroundRay",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "position3d": [
+          0,
+          3,
+          0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "ray_target3d": [
+          0,
+          -8,
+          0
+        ],
+        "ray_enabled3d": true,
+        "ray_mask3d": 4294967295,
+        "ray_exclude_parent3d": true
+      }
+    ],
+    "background_color": [
+      20,
+      24,
+      32
+    ]
+  }
+}

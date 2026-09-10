@@ -1,0 +1,20 @@
+{
+  "format": "vworks_resource",
+  "version": 1,
+  "type": "Material2D",
+  "data": {
+    "tint": [
+      190,
+      220,
+      255,
+      255
+    ],
+    "blend_mode": "alpha",
+    "shader": "",
+    "shader_preset": "grayscale",
+    "params": {
+      "pixel_size": 4,
+      "outline_size": 2
+    }
+  }
+}

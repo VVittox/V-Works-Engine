@@ -1,0 +1,10 @@
+{
+  "format": "vworks_scene",
+  "version": 1,
+  "scene": {
+    "type": "Scene",
+    "name": "Main",
+    "children": [],
+    "background_color": null
+  }
+}
