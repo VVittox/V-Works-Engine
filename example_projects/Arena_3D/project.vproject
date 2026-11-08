@@ -1,0 +1,121 @@
+{
+  "format": "vworks_project",
+  "version": 3,
+  "name": "Arena 3D Example",
+  "main_scene": "scenes/main.vscene",
+  "icon": "icon.png",
+  "window": {
+    "width": 1280,
+    "height": 720,
+    "fullscreen": false,
+    "borderless": false,
+    "resizable": true,
+    "vsync": true
+  },
+  "runtime": {
+    "target_fps": 120,
+    "preview_backend": "legacy",
+    "render_backend": "cpu",
+    "strict_scripts": false,
+    "physics_fps": 60,
+    "gravity": 980.0,
+    "gravity_3d": -9.81,
+    "debug_overlay": false,
+    "debug_collisions": false,
+    "profiler_overlay": false,
+    "background_color": [
+      22,
+      24,
+      31
+    ]
+  },
+  "input_map": {
+    "ui_left": [
+      "left",
+      "a"
+    ],
+    "ui_right": [
+      "right",
+      "d"
+    ],
+    "ui_up": [
+      "up",
+      "w"
+    ],
+    "ui_down": [
+      "down",
+      "s"
+    ],
+    "ui_accept": [
+      "return",
+      "space"
+    ],
+    "ui_cancel": [
+      "escape"
+    ]
+  },
+  "tags": [
+    "Untagged",
+    "Player",
+    "Enemy",
+    "Collectible",
+    "UI"
+  ],
+  "layers": [
+    "Default",
+    "Layer 1",
+    "Layer 2",
+    "Layer 3",
+    "Layer 4",
+    "Layer 5",
+    "Layer 6",
+    "Layer 7",
+    "Layer 8",
+    "Layer 9",
+    "Layer 10",
+    "Layer 11",
+    "Layer 12",
+    "Layer 13",
+    "Layer 14",
+    "Layer 15",
+    "Layer 16",
+    "Layer 17",
+    "Layer 18",
+    "Layer 19",
+    "Layer 20",
+    "Layer 21",
+    "Layer 22",
+    "Layer 23",
+    "Layer 24",
+    "Layer 25",
+    "Layer 26",
+    "Layer 27",
+    "Layer 28",
+    "Layer 29",
+    "Layer 30",
+    "Layer 31"
+  ],
+  "enabled_plugins": [],
+  "editor": {
+    "autosave_enabled": true,
+    "autosave_seconds": 60,
+    "recovery_keep": 10,
+    "grid_size": 16,
+    "show_collision_shapes": true
+  },
+  "build": {
+    "product_name": "Arena 3D Example",
+    "version": "0.1.0",
+    "company": "VVittox",
+    "onefile": false,
+    "debug_console": false,
+    "clean_build": true,
+    "exclude": [],
+    "scenes": [
+      {
+        "path": "scenes/main.vscene",
+        "enabled": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+name: macOS Editor (experimental)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'engine/**'
+      - 'editor/**'
+      - 'launch_editor.py'
+      - 'requirements.txt'
+      - '.github/workflows/macos-editor.yml'
+jobs:
+  package:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+      - name: Package macOS editor
+        run: |
+          python -m PyInstaller --noconfirm --clean --windowed --onedir \
+            --name 'V Works Engine' \
+            --add-data 'editor/resources:editor/resources' \
+            --collect-all pygame --collect-all PySide6 launch_editor.py
+      - name: Upload macOS editor application
+        uses: actions/upload-artifact@v4
+        with:
+          name: V-Works-Engine-macOS-unverified
+          path: dist/V Works Engine.app
+          if-no-files-found: error

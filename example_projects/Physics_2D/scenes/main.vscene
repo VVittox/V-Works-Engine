@@ -1,0 +1,380 @@
+{
+  "format": "vworks_scene",
+  "version": 5,
+  "scene": {
+    "type": "Scene",
+    "name": "Main",
+    "script": "",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "Label2D",
+        "name": "Hint",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "text": "RigidBody2D + StaticBody2D | Run to simulate",
+        "font_size": 22,
+        "color": [
+          240,
+          240,
+          245
+        ],
+        "font_path": ""
+      },
+      {
+        "type": "StaticBody2D",
+        "name": "Floor",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "ColorRect2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              860,
+              42
+            ],
+            "color": [
+              77,
+              92,
+              122
+            ]
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          140,
+          565
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "collider_shape": "box",
+        "body_type": "STATIC",
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "mass": 1.0,
+        "gravity_scale": 1.0,
+        "restitution": 0.0,
+        "friction": 0.2,
+        "collider_size": [
+          860,
+          42
+        ],
+        "collider_offset": [
+          0.0,
+          0.0
+        ],
+        "collider_enabled": true,
+        "collider_trigger": false,
+        "collision_layer": 1,
+        "collision_mask": 4294967295
+      },
+      {
+        "type": "RigidBody2D",
+        "name": "FallingBlock1",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "ColorRect2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              65,
+              65
+            ],
+            "color": [
+              77,
+              166,
+              238
+            ]
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          260,
+          130
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "collider_shape": "box",
+        "body_type": "DYNAMIC",
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "mass": 1.0,
+        "gravity_scale": 1.0,
+        "restitution": 0.0,
+        "friction": 0.2,
+        "collider_size": [
+          65,
+          65
+        ],
+        "collider_offset": [
+          0.0,
+          0.0
+        ],
+        "collider_enabled": true,
+        "collider_trigger": false,
+        "collision_layer": 1,
+        "collision_mask": 4294967295
+      },
+      {
+        "type": "RigidBody2D",
+        "name": "FallingBlock2",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "ColorRect2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              65,
+              65
+            ],
+            "color": [
+              226,
+              153,
+              85
+            ]
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          425,
+          165
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "collider_shape": "box",
+        "body_type": "DYNAMIC",
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "mass": 1.0,
+        "gravity_scale": 1.0,
+        "restitution": 0.0,
+        "friction": 0.2,
+        "collider_size": [
+          65,
+          65
+        ],
+        "collider_offset": [
+          0.0,
+          0.0
+        ],
+        "collider_enabled": true,
+        "collider_trigger": false,
+        "collision_layer": 1,
+        "collision_mask": 4294967295
+      },
+      {
+        "type": "RigidBody2D",
+        "name": "FallingBlock3",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "ColorRect2D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              65,
+              65
+            ],
+            "color": [
+              144,
+              204,
+              123
+            ]
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position": [
+          590,
+          200
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "visible": true,
+        "z_index": 0,
+        "material": "",
+        "collider_shape": "box",
+        "body_type": "DYNAMIC",
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "mass": 1.0,
+        "gravity_scale": 1.0,
+        "restitution": 0.0,
+        "friction": 0.2,
+        "collider_size": [
+          65,
+          65
+        ],
+        "collider_offset": [
+          0.0,
+          0.0
+        ],
+        "collider_enabled": true,
+        "collider_trigger": false,
+        "collision_layer": 1,
+        "collision_mask": 4294967295
+      }
+    ],
+    "script_properties": {},
+    "enabled": true,
+    "background_color": null
+  }
+}

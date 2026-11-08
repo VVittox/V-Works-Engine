@@ -3,3 +3,18 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# macOS
+.DS_Store
+._*
+
+# Build files
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/

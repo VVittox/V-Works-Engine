@@ -1,0 +1,433 @@
+{
+  "format": "vworks_scene",
+  "version": 5,
+  "scene": {
+    "type": "Scene",
+    "name": "Main",
+    "script": "",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "CanvasLayer",
+        "name": "Dashboard",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "UIPanel",
+            "name": "Background",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [
+              {
+                "type": "UIPanel",
+                "name": "HealthPanel",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "HealthLabel",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160,
+                      64
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      16,
+                      20,
+                      160.0,
+                      64.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Health",
+                    "font_size": 25,
+                    "color": [
+                      245,
+                      245,
+                      248,
+                      255
+                    ],
+                    "align": "left",
+                    "font_path": "",
+                    "vertical_align": "top",
+                    "wrap": true,
+                    "rich_layout": false,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160,
+                  64
+                ],
+                "anchors": [
+                  0.0,
+                  0.0,
+                  0.3333333333333333,
+                  0.0
+                ],
+                "offsets": [
+                  16,
+                  80,
+                  -16,
+                  320
+                ],
+                "mouse_filter": "stop",
+                "color": [
+                  40,
+                  44,
+                  54,
+                  230
+                ],
+                "border_color": [
+                  74,
+                  82,
+                  100,
+                  255
+                ],
+                "border_width": 0
+              },
+              {
+                "type": "UIPanel",
+                "name": "InventoryPanel",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "InventoryLabel",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160,
+                      64
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      16,
+                      20,
+                      160.0,
+                      64.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Inventory",
+                    "font_size": 25,
+                    "color": [
+                      245,
+                      245,
+                      248,
+                      255
+                    ],
+                    "align": "left",
+                    "font_path": "",
+                    "vertical_align": "top",
+                    "wrap": true,
+                    "rich_layout": false,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160,
+                  64
+                ],
+                "anchors": [
+                  0.3333333333333333,
+                  0.0,
+                  0.6666666666666666,
+                  0.0
+                ],
+                "offsets": [
+                  16,
+                  80,
+                  -16,
+                  320
+                ],
+                "mouse_filter": "stop",
+                "color": [
+                  40,
+                  44,
+                  54,
+                  230
+                ],
+                "border_color": [
+                  74,
+                  82,
+                  100,
+                  255
+                ],
+                "border_width": 0
+              },
+              {
+                "type": "UIPanel",
+                "name": "ObjectivesPanel",
+                "script": "",
+                "groups": [],
+                "tag": "Untagged",
+                "layer": 0,
+                "signal_connections": [],
+                "editor_locked": false,
+                "children": [
+                  {
+                    "type": "UILabel",
+                    "name": "ObjectivesLabel",
+                    "script": "",
+                    "groups": [],
+                    "tag": "Untagged",
+                    "layer": 0,
+                    "signal_connections": [],
+                    "editor_locked": false,
+                    "children": [],
+                    "script_properties": {},
+                    "enabled": true,
+                    "position": [
+                      0.0,
+                      0.0
+                    ],
+                    "rotation": 0.0,
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "visible": true,
+                    "z_index": 0,
+                    "material": "",
+                    "size": [
+                      160,
+                      64
+                    ],
+                    "anchors": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "offsets": [
+                      16,
+                      20,
+                      160.0,
+                      64.0
+                    ],
+                    "mouse_filter": "stop",
+                    "text": "Objectives",
+                    "font_size": 25,
+                    "color": [
+                      245,
+                      245,
+                      248,
+                      255
+                    ],
+                    "align": "left",
+                    "font_path": "",
+                    "vertical_align": "top",
+                    "wrap": true,
+                    "rich_layout": false,
+                    "font_stretch": 1.0,
+                    "auto_fit": true,
+                    "font_bold": false
+                  }
+                ],
+                "script_properties": {},
+                "enabled": true,
+                "position": [
+                  0.0,
+                  0.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "visible": true,
+                "z_index": 0,
+                "material": "",
+                "size": [
+                  160,
+                  64
+                ],
+                "anchors": [
+                  0.6666666666666666,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                "offsets": [
+                  16,
+                  80,
+                  -16,
+                  320
+                ],
+                "mouse_filter": "stop",
+                "color": [
+                  40,
+                  44,
+                  54,
+                  230
+                ],
+                "border_color": [
+                  74,
+                  82,
+                  100,
+                  255
+                ],
+                "border_width": 0
+              }
+            ],
+            "script_properties": {},
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "visible": true,
+            "z_index": 0,
+            "material": "",
+            "size": [
+              160,
+              64
+            ],
+            "anchors": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "offsets": [
+              0.0,
+              0.0,
+              160.0,
+              64.0
+            ],
+            "mouse_filter": "stop",
+            "color": [
+              40,
+              44,
+              54,
+              230
+            ],
+            "border_color": [
+              74,
+              82,
+              100,
+              255
+            ],
+            "border_width": 0
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "canvas_layer": 0,
+        "canvas_visible": true
+      }
+    ],
+    "script_properties": {},
+    "enabled": true,
+    "background_color": null
+  }
+}

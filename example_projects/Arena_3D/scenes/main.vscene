@@ -1,0 +1,1199 @@
+{
+  "format": "vworks_scene",
+  "version": 5,
+  "scene": {
+    "type": "Scene",
+    "name": "Main",
+    "script": "",
+    "groups": [],
+    "tag": "Untagged",
+    "layer": 0,
+    "signal_connections": [],
+    "editor_locked": false,
+    "children": [
+      {
+        "type": "WorldEnvironment3D",
+        "name": "Environment",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "ambient_color3d": [
+          255,
+          255,
+          255
+        ],
+        "ambient_energy3d": 0.32,
+        "fog_enabled3d": false,
+        "fog_color3d": [
+          100,
+          120,
+          145
+        ],
+        "fog_near3d": 20.0,
+        "fog_far3d": 100.0,
+        "sky_enabled3d": true,
+        "sky_top_color3d": [
+          35,
+          50,
+          82
+        ],
+        "sky_bottom_color3d": [
+          145,
+          185,
+          225
+        ]
+      },
+      {
+        "type": "DirectionalLight3D",
+        "name": "Sun",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation3d": [
+          -0.65,
+          -0.45,
+          0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "light_color3d": [
+          255,
+          244,
+          220
+        ],
+        "light_energy3d": 1.0,
+        "ambient3d": 0.22,
+        "light_enabled3d": true
+      },
+      {
+        "type": "Camera3DNode",
+        "name": "Camera3D",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0,
+          7,
+          16
+        ],
+        "rotation3d": [
+          -0.28,
+          0,
+          0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "current3d": true,
+        "fov": 70.0,
+        "near": 0.05,
+        "far": 2000.0,
+        "orthographic": false,
+        "ortho_size": 10.0,
+        "cull_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "ArenaFloor",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              24,
+              0.7,
+              24
+            ],
+            "color3d": [
+              65,
+              75,
+              92
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0,
+          -0.35,
+          0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          24,
+          0.7,
+          24
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Wall1",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              24,
+              3.2,
+              1
+            ],
+            "color3d": [
+              91,
+              107,
+              129
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0,
+          1.6,
+          -11.5
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          24,
+          3.2,
+          1
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Wall2",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              24,
+              3.2,
+              1
+            ],
+            "color3d": [
+              91,
+              107,
+              129
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0,
+          1.6,
+          11.5
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          24,
+          3.2,
+          1
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Wall3",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              1,
+              3.2,
+              24
+            ],
+            "color3d": [
+              91,
+              107,
+              129
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          -11.5,
+          1.6,
+          0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          1,
+          3.2,
+          24
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Wall4",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              1,
+              3.2,
+              24
+            ],
+            "color3d": [
+              91,
+              107,
+              129
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          11.5,
+          1.6,
+          0
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          1,
+          3.2,
+          24
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Cover1",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              2,
+              1.6,
+              2
+            ],
+            "color3d": [
+              72,
+              126,
+              155
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          -7,
+          0.8,
+          -5
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          2,
+          1.6,
+          2
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Cover2",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              2,
+              1.6,
+              2
+            ],
+            "color3d": [
+              72,
+              126,
+              155
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          7,
+          0.8,
+          -4
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          2,
+          1.6,
+          2
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Cover3",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              2,
+              1.6,
+              2
+            ],
+            "color3d": [
+              72,
+              126,
+              155
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          -6,
+          0.8,
+          7
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          2,
+          1.6,
+          2
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "StaticBody3D",
+        "name": "Cover4",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [
+          {
+            "type": "MeshInstance3D",
+            "name": "Visual",
+            "script": "",
+            "groups": [],
+            "tag": "Untagged",
+            "layer": 0,
+            "signal_connections": [],
+            "editor_locked": false,
+            "children": [],
+            "script_properties": {},
+            "enabled": true,
+            "position3d": [
+              0,
+              0,
+              0
+            ],
+            "rotation3d": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale3d": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "visible3d": true,
+            "render_layer": 0,
+            "material3d": "",
+            "primitive": "cube",
+            "mesh_path": "",
+            "size3d": [
+              2,
+              1.6,
+              2
+            ],
+            "color3d": [
+              72,
+              126,
+              155
+            ],
+            "wireframe": false,
+            "shaded": true,
+            "double_sided": true,
+            "segments": 14,
+            "rings": 9,
+            "cast_shadow3d": true,
+            "receive_light3d": true
+          }
+        ],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          6,
+          0.8,
+          6
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": "",
+        "body_type3d": "STATIC",
+        "velocity3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass3d": 1.0,
+        "gravity_scale3d": 1.0,
+        "restitution3d": 0.0,
+        "friction3d": 0.2,
+        "collider_size3d": [
+          2,
+          1.6,
+          2
+        ],
+        "collider_offset3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collider_enabled3d": true,
+        "collider_trigger3d": false,
+        "collision_layer3d": 1,
+        "collision_mask3d": 4294967295
+      },
+      {
+        "type": "Marker3D",
+        "name": "Spawn1",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          0,
+          1,
+          8
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": ""
+      },
+      {
+        "type": "Marker3D",
+        "name": "Spawn2",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          -8,
+          1,
+          -8
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": ""
+      },
+      {
+        "type": "Marker3D",
+        "name": "Spawn3",
+        "script": "",
+        "groups": [],
+        "tag": "Untagged",
+        "layer": 0,
+        "signal_connections": [],
+        "editor_locked": false,
+        "children": [],
+        "script_properties": {},
+        "enabled": true,
+        "position3d": [
+          8,
+          1,
+          -8
+        ],
+        "rotation3d": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale3d": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "visible3d": true,
+        "render_layer": 0,
+        "material3d": ""
+      }
+    ],
+    "script_properties": {},
+    "enabled": true,
+    "background_color": null
+  }
+}
